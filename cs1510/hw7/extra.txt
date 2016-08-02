@@ -1,0 +1,51 @@
+    backptr->next=new Node<T>;
+    if(!size)
+       frontptr=backptr;
+    else
+        backptr=backptr->next;
+    backptr->data=x;
+    backptr->next=NULL;
+    
+    
+    
+    
+    cout<<"main"<<endl;
+    Queue<Robot> line;
+    string input;
+    bool on=1;
+    while(on)
+    {
+        cin>>input; 
+        if(!strcmp(input.c_str(),"$"))
+            on=0;
+        else
+        {
+            Robot R= {input};
+            cin>>input;
+            for(int i=0;i<atoi(input.c_str());i++)
+            {
+                cin>>input;
+                if(!strcmp(input.c_str(),"memwipe"))
+                    R.services.enqueue('w');
+                else if(!strcmp(input.c_str(),"metalwork"))
+                    R.services.enqueue('m');
+                else if(!strcmp(input.c_str(),"paint"))
+                    R.services.enqueue('p');
+                else if(!strcmp(input.c_str(),"oilbath")) 
+                    R.services.enqueue('o');
+                cout<<R.services.back()<<endl;
+            }
+            line.enqueue(R);
+        }
+    }
+    
+    
+    QueueNode(const T info, QueueNode *nextValue = NULL)
+	{
+		data = info;
+		next = nextValue;
+	}
+	QueueNode(QueueNode *nextValue = NULL)
+	{
+		next = nextValue;
+	}

@@ -1,0 +1,7 @@
+#0: Unit-01,  Wrapper  $3.50
+#1: Flexo,  Bender  $25.10
+#2: Fuzion,  Welder  $39.89
+#3: Scott,  Wrapper  $1.50
+
+TOTAL PAY = $69.99
+AVERAGE PAY = $17.50

@@ -1,0 +1,26 @@
+At time 0 : Bender gets: paint.
+At time 0 : Calculon gets: metalwork.
+At time 0 : r2d2 gets: oilbath.
+At time 0 : c3p0 gets: memwipe.
+At time 4 : r2d2 gets back in line for: paint.
+At time 4 : Hedonismbot gets: oilbath.
+At time 8 : Hedonismbot gets back in line for: oilbath.
+At time 9 : c3p0 is done!
+At time 12 : Calculon gets back in line for: memwipe.
+At time 12 : TinyTin gets: metalwork.
+At time 18 : Bender is done!
+At time 18 : r2d2 gets: paint.
+At time 18 : Hedonismbot gets: oilbath.
+At time 18 : Calculon gets: memwipe.
+At time 22 : Hedonismbot gets back in line for: oilbath.
+At time 22 : Hedonismbot gets: oilbath.
+At time 24 : TinyTin gets back in line for: metalwork.
+At time 24 : TinyTin gets: metalwork.
+At time 26 : Hedonismbot gets back in line for: paint.
+At time 27 : Calculon is done!
+At time 36 : r2d2 is done!
+At time 36 : Hedonismbot gets: paint.
+At time 36 : TinyTin is done!
+At time 54 : Hedonismbot gets back in line for: oilbath.
+At time 54 : Hedonismbot gets: oilbath.
+At time 58 : Hedonismbot is done!
